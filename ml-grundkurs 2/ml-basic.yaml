@@ -1,0 +1,19 @@
+name: ml-basic
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python[version='>=3.10']
+  - appdirs
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pydantic
+  - pydantic-settings
+  - scikit-learn
+  - scipy
+  - seaborn
+  - pip:
+      - jupyterlite[all]
